@@ -1,0 +1,42 @@
+:root{
+    --text-color: #e5e5ee;
+    --black-color: #0c0c0c;
+    --white-color: #fff;
+    --primary-color: #FEBB00;
+    --header-height:110px;
+    --sidebar-width: 250px;
+    --orange-color:#ff8040;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 2.1rem;
+    font-family: 'Be Vietnam', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+}
+ul{
+    list-style: none;;
+    padding-left: 0;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: #616161;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #444;
+}
